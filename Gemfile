@@ -32,6 +32,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#gem "therubyracer"
+#gem "less-rails"
 # for twitter-bootstrap
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
@@ -43,6 +45,9 @@ gem 'devise'
 
 # for authorization of contents inside log-ins 
 gem 'cancan'
+
+# for image hosting and pdf hosting
+gem 'paperclip'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
