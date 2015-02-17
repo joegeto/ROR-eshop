@@ -41,6 +41,9 @@ gem 'simple_form'
 # for users and simple_form from plataformatec
 gem 'devise'
 
+# for authorization of contents inside log-ins 
+gem 'cancan'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
