@@ -49,6 +49,9 @@ gem 'cancan'
 # for image hosting and pdf hosting
 gem 'paperclip'
 
+# for environment variables for servers with paper clips and attachments
+gem 'dotenv-rails', group: :development
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
