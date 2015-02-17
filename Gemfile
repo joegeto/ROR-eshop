@@ -52,6 +52,9 @@ gem 'paperclip'
 # for environment variables for servers with paper clips and attachments
 gem 'dotenv-rails', group: :development
 
+# for amazon web services
+gem 'aws-sdk', '< 2.0'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
