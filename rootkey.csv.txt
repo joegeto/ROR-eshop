@@ -1,2 +1,4 @@
 AWSAccessKeyId=AKIAJCH4VGT4S3ROFL5A
 AWSSecretKey=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
+StripeTestSecretKey=sk_test_g7PM9HhmRjK5DQZuuekmSuVL
+StripeTestPublishableKey=pk_test_Ws31ypK92dK5LLhhHbL1gun2
